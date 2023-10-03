@@ -1,0 +1,13 @@
+{
+  "purge": false,
+  "permissions": [
+    {
+      "id": "Submit Talk",
+      "title:i18n": "Submit Talk"
+    },
+    {
+      "id": "Approve Talk",
+      "title:i18n": "Approve Talk"
+    }
+  ]
+}

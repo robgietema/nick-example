@@ -1,0 +1,32 @@
+{
+  "id": "author",
+  "title:i18n": "Author Information",
+  "description:i18n": "Adds firstname, lastname and bio fields.",
+  "schema": {
+    "fieldsets": [
+      {
+        "fields": ["firstname", "lastname", "bio"],
+        "id": "default",
+        "title:i18n": "Default"
+      }
+    ],
+    "properties": {
+      "firstname": {
+        "title:i18n": "Firstname",
+        "description:i18n": "Firstname of the speaker.",
+        "type": "string"
+      },
+      "lastname": {
+        "title:i18n": "Lastname",
+        "description:i18n": "Lastname of the speaker.",
+        "type": "string"
+      },
+      "Bio": {
+        "title:i18n": "Bio",
+        "description:i18n": "Bio of the speaker.",
+        "type": "string",
+        "widget": "textarea"
+      }
+    }
+  }
+}

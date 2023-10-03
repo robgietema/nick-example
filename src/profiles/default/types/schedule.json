@@ -1,0 +1,27 @@
+{
+  "id": "Schedule",
+  "title:i18n": "Schedule",
+  "description:i18n": "Schedule for a conference.",
+  "global_allow": true,
+  "filter_content_types": true,
+  "allowed_content_types": ["Talk"],
+  "schema": {
+    "fieldsets": [
+      {
+        "fields": ["year"],
+        "id": "default",
+        "title:i18n": "Default"
+      }
+    ],
+    "properties": {
+      "year": {
+        "description:i18n": "Year of this schedule.",
+        "title:i18n": "Year",
+        "type": "integer"
+      }
+    },
+    "required": ["year"],
+    "behaviors": ["folderish", "id_title_from_year", "total_time_index"]
+  },
+  "workflow": "simple_publication_workflow"
+}

@@ -1,0 +1,54 @@
+{
+  "purge": false,
+  "workflows": [
+    {
+      "id": "talk_workflow",
+      "title:i18n": "Talk Workflow",
+      "description:i18n": "Workflow for talk submission and approval.",
+      "json": {
+        "initial_state": "submitted",
+        "states": {
+          "submitted": {
+            "title:i18n": "Submitted",
+            "description:i18n": "Talk has been submitted.",
+            "transitions": ["approve", "reject"],
+            "permissions": {
+              "Speaker": ["View"],
+              "Program Manager": ["View", "Modify"]
+            }
+          },
+          "approved": {
+            "title:i18n": "Approved",
+            "description:i18n": "Talk has been approved.",
+            "transitions": ["reject"],
+            "permissions": {
+              "Anonymous": ["View"],
+              "Speaker": ["View"],
+              "Program Manager": ["View", "Modify"]
+            }
+          },
+          "rejected": {
+            "title:i18n": "Rejected",
+            "description:i18n": "Talk has been rejected.",
+            "transitions": ["approve"],
+            "permissions": {
+              "Program Manager": ["View", "Modify"]
+            }
+          }
+        },
+        "transitions": {
+          "approve": {
+            "title:i18n": "Approve",
+            "new_state": "approved",
+            "permission": "Approve Talk"
+          },
+          "reject": {
+            "title:i18n": "Reject",
+            "new_state": "rejected",
+            "permission": "Approve Talk"
+          }
+        }
+      }
+    }
+  ]
+}

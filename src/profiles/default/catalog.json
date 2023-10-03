@@ -1,0 +1,41 @@
+{
+  "indexes": [
+    {
+      "name": "author",
+      "type": "string",
+      "attr": "title",
+      "title:i18n": "Author",
+      "description:i18n": "The author's name",
+      "group": "Text",
+      "enabled": false,
+      "sortable": true,
+      "operators": {
+        "string.contains": {
+          "title:i18n": "Contains",
+          "description:i18n": "",
+          "operation": "contains",
+          "widget": "StringWidget"
+        },
+        "string.is": {
+          "title:i18n": "Is",
+          "description:i18n": "Tip: you can use * to autocomplete.",
+          "operation": "equal",
+          "widget": "StringWidget"
+        }
+      },
+      "vocabulary": null
+    }
+  ],
+  "metadata": [
+    {
+      "name": "totalTime",
+      "type": "integer",
+      "attr": "totalTime"
+    },
+    {
+      "name": "author",
+      "type": "string",
+      "attr": "author"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "purge": false,
+  "users": [
+    {
+      "id": "johndoe",
+      "password": "johndoe",
+      "fullname": "John Doe",
+      "email": "johndoe@nickcms.org",
+      "roles": ["Speaker"]
+    },
+    {
+      "id": "janeroe",
+      "password": "janeroe",
+      "fullname": "Jane Roe",
+      "email": "janeroe@nickcms.org",
+      "roles": ["Program Manager"]
+    },
+    {
+      "id": "admin",
+      "password": "admin",
+      "fullname": "Admin",
+      "email": "admin@nickcms.org",
+      "roles": ["Administrator"]
+    }
+  ]
+}

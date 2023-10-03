@@ -1,0 +1,15 @@
+{
+  "purge": false,
+  "roles": [
+    {
+      "id": "Speaker",
+      "title:i18n": "Speaker",
+      "permissions": ["Submit Talk"]
+    },
+    {
+      "id": "Program Manager",
+      "title:i18n": "Program Manager",
+      "permissions": ["Approve Talk"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "purge": true,
+  "redirects": [
+    {
+      "path": "/talks-2023",
+      "document": "405ca717-0c68-43a0-88ac-629a82658675"
+    }
+  ]
+}

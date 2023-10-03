@@ -1,0 +1,38 @@
+{
+  "id": "Talk",
+  "title:i18n": "Talk",
+  "description:i18n": "Content type for a talk.",
+  "global_allow": false,
+  "filter_content_types": true,
+  "allowed_content_types": [],
+  "schema": {
+    "fieldsets": [
+      {
+        "fields": ["title", "description", "length"],
+        "id": "default",
+        "title:i18n": "Default"
+      }
+    ],
+    "properties": {
+      "title": {
+        "title:i18n": "Title",
+        "description:i18n": "The title of the talk.",
+        "type": "string"
+      },
+      "description": {
+        "title:i18n": "Description",
+        "description:i18n": "The description of this talk.",
+        "type": "string",
+        "widget": "textarea"
+      },
+      "length": {
+        "additionalItems": true,
+        "title:i18n": "Talk Length",
+        "vocabulary": { "@id": "talk-length" }
+      }
+    },
+    "required": ["title"],
+    "behaviors": ["author", "author_index"]
+  },
+  "workflow": "talk_workflow"
+}

@@ -1,0 +1,12 @@
+{
+  "purge": false,
+  "groups": [
+    {
+      "id": "Speakers",
+      "title:i18n": "Speakers",
+      "description:i18n": "",
+      "email": "",
+      "roles": ["Speaker"]
+    }
+  ]
+}
