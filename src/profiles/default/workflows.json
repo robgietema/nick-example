@@ -14,7 +14,8 @@
             "transitions": ["approve", "reject"],
             "permissions": {
               "Speaker": ["View"],
-              "Program Manager": ["View", "Modify"]
+              "Program Manager": ["View", "Modify"],
+              "Administrator": ["View", "Modify"]
             }
           },
           "approved": {
@@ -24,7 +25,8 @@
             "permissions": {
               "Anonymous": ["View"],
               "Speaker": ["View"],
-              "Program Manager": ["View", "Modify"]
+              "Program Manager": ["View", "Modify"],
+              "Administrator": ["View", "Modify"]
             }
           },
           "rejected": {
@@ -32,7 +34,8 @@
             "description:i18n": "Talk has been rejected.",
             "transitions": ["approve"],
             "permissions": {
-              "Program Manager": ["View", "Modify"]
+              "Program Manager": ["View", "Modify"],
+              "Administrator": ["View", "Modify"]
             }
           }
         },

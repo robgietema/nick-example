@@ -21,7 +21,7 @@
         "description:i18n": "Lastname of the speaker.",
         "type": "string"
       },
-      "Bio": {
+      "bio": {
         "title:i18n": "Bio",
         "description:i18n": "Bio of the speaker.",
         "type": "string",
