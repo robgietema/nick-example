@@ -1,0 +1,6 @@
+{
+  "id": "navigation",
+  "data": {
+    "displayed_types": ["Folder", "Page", "Schedule"]
+  }
+}
