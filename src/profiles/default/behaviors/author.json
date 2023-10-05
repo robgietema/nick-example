@@ -1,11 +1,11 @@
 {
   "id": "author",
   "title:i18n": "Author Information",
-  "description:i18n": "Adds firstname, lastname and bio fields.",
+  "description:i18n": "Adds firstname, lastname, bio and picture fields.",
   "schema": {
     "fieldsets": [
       {
-        "fields": ["firstname", "lastname", "bio"],
+        "fields": ["firstname", "lastname", "bio", "picture"],
         "id": "default",
         "title:i18n": "Default"
       }
@@ -26,6 +26,13 @@
         "description:i18n": "Bio of the speaker.",
         "type": "string",
         "widget": "textarea"
+      },
+      "picture": {
+        "title:i18n": "Picture",
+        "description:i18n": "Picture of the speaker",
+        "type": "object",
+        "widget": "file",
+        "factory": "Image"
       }
     }
   }

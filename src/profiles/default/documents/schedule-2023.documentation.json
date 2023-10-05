@@ -1,0 +1,14 @@
+{
+  "uuid": "205ca717-0c68-43a0-88ac-629a82658675",
+  "type": "Talk",
+  "title": "How to promote your app with documentation",
+  "description": "Compared to shiny marketing websites, documentation lacks the luster to impress. Yet beyond the initial impression, visitors repeatedly return to documentation and become engaged through its substantive content.",
+  "firstname": "Steve",
+  "lastname": "Piercy",
+  "bio": "I volunteer as lead cat herder for Plone 6 Documentation and as a core contributor to the Pylons Project projects, including Pyramid and maintainer of Deform. I am a self-employed web application developer.",
+  "picture": "/images/steve.jpg",
+  "length": "Short",
+  "level": "Beginner",
+  "owner": "robgietema",
+  "workflow_state": "submitted"
+}

@@ -6,7 +6,9 @@
   "firstname": "Rob",
   "lastname": "Gietema",
   "bio": "Rob is a frontend webdeveloper for over 25 years. He worked at and founded several companies and is now working as a freelancer. He wrote Volto, Nick, Mosaic and the initial TinyMCE implementation for Plone. He is a former Framework team member, UI-team member, Ploneconf organizer and a Plone core developer for over 15 years. When he's not writing code he loves to climb mountains.",
-  "length": "long",
-  "owner": "johndoe",
+  "picture": "/images/rob.png",
+  "length": "Long",
+  "level": "Beginner",
+  "owner": "robgietema",
   "workflow_state": "approved"
 }

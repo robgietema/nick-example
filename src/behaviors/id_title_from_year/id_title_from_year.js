@@ -12,7 +12,7 @@ import { uniqueId } from '@robgietema/nick/src/helpers/utils/utils';
 export const id_title_from_year = {
   /**
    * Set id
-   * @method getId
+   * @method setId
    * @param {string} id Provided id (can be empty)
    * @param {Array} blacklist Blacklist ids
    * @returns {string} Id

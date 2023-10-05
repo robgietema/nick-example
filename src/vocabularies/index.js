@@ -5,6 +5,8 @@
 
 import { talkLevels } from './talk-levels/talk-levels';
 
-export const vocabularies = {
-  talkLevels,
+const vocabularies = {
+  'talk-level': talkLevels,
 };
+
+export default vocabularies;

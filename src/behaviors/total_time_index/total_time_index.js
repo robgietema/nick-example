@@ -22,7 +22,7 @@ export const total_time_index = {
 
     await Promise.all(
       map(this._children, async (child) => {
-        if (child.json.length === 'short') {
+        if (child.json.length === 'Short') {
           total += 30;
         } else {
           total += 45;

@@ -8,7 +8,7 @@
   "schema": {
     "fieldsets": [
       {
-        "fields": ["title", "description", "length"],
+        "fields": ["title", "description", "length", "level"],
         "id": "default",
         "title:i18n": "Default"
       }
@@ -29,6 +29,11 @@
         "additionalItems": true,
         "title:i18n": "Talk Length",
         "vocabulary": { "@id": "talk-length" }
+      },
+      "level": {
+        "additionalItems": true,
+        "title:i18n": "Talk Level",
+        "vocabulary": { "@id": "talk-level" }
       }
     },
     "required": ["title"],
