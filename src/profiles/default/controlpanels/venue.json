@@ -1,0 +1,38 @@
+{
+  "id": "venue",
+  "title:i18n": "Venue",
+  "group": "General",
+  "schema": {
+    "fieldsets": [
+      {
+        "behavior": "plone",
+        "fields": ["name", "address", "website"],
+        "id": "default",
+        "title": "Default"
+      }
+    ],
+    "properties": {
+      "name": {
+        "title:i18n": "Name",
+        "description:i18n": "Name of the venue.",
+        "type": "string"
+      },
+      "address": {
+        "title:i18n": "Address",
+        "description:i18n": "Address of the venue.",
+        "type": "string"
+      },
+      "host": {
+        "title:i18n": "Website",
+        "description:i18n": "Website of the venue.",
+        "type": "string"
+      }
+    },
+    "required": ["name", "address"]
+  },
+  "data": {
+    "name": "Coliseo Theathre",
+    "address": "Merkatu Kalea, 2, 20600 Eibar, Gipuzkoa",
+    "website": "https://www.eibar.eus/es/cultura/coliseo/cartelera-de-cine-en-el-coliseo"
+  }
+}

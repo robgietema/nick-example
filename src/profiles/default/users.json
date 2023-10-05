@@ -6,7 +6,7 @@
       "password": "robgietema",
       "fullname": "Rob Gietema",
       "email": "robgietema@nickcms.org",
-      "roles": ["Speaker"]
+      "groups": ["Speakers"]
     },
     {
       "id": "admin",

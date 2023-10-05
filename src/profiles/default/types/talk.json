@@ -33,7 +33,7 @@
       "level": {
         "additionalItems": true,
         "title:i18n": "Talk Level",
-        "vocabulary": { "@id": "talk-level" }
+        "vocabulary": { "@id": "talk-levels" }
       }
     },
     "required": ["title"],
